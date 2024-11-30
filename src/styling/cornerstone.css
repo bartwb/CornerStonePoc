@@ -1,0 +1,96 @@
+.outerWrapper{
+    display: flex;
+}
+
+/* Toolbar styling */
+.toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .toolbar button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .toolbar button.active {
+    background-color: #555;
+  }
+  
+  /* Viewer styling */
+  .viewportElement {
+    width: 691px;
+    height: 1058px;
+    position: relative;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .cornerstone-canvas {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Overlays */
+  .overlay {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    pointer-events: none;
+  }
+  
+  #topLeftOverlay {
+    top: 3px;
+    left: 3px;
+  }
+  
+  #topRightOverlay {
+    top: 3px;
+    right: 3px;
+  }
+  
+  #bottomLeftOverlay {
+    bottom: 3px;
+    left: 3px;
+  }
+  
+  #bottomRightOverlay {
+    bottom: 3px;
+    right: 3px;
+  }
+  
+  /* Markings List */
+  .markings {
+    flex: 1;
+    color: black;
+    margin-left: 100px;
+  }
+  
+  .markings h3 {
+    margin: 0;
+  }
+  
+  .markings ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .markings li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .markings li button {
+    margin-left: 10px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

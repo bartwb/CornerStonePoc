@@ -3,13 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
+    "cornerstone-core": "^2.1.0",
+    "cornerstone-math": "^0.1.6",
+    "cornerstone-tools": "^2.1.0",
+    "cornerstone-wado-image-loader": "^4.13.2",
+    "cornerstone-web-image-loader": "^2.0.0",
+    "hammerjs": "^2.0.8",
+    "install": "^0.13.0",
+    "npm": "^10.9.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
